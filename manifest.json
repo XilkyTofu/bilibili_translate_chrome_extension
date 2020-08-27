@@ -1,0 +1,20 @@
+{
+  "name": "Bilibili text translate",
+  "version": "1.0.0",
+  "description": "Translate bilibili page.",
+  "manifest_version": 2,
+  "author": "u/XilkyTofu u/Prune_Berry u/konokalahola",
+  "permissions": ["https://*.bilibili.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.bilibili.com/*"],
+      "js": ["dictionary.js", "main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}

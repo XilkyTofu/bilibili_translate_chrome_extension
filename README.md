@@ -1,30 +1,37 @@
-# bilibili_translate_chrome_extension
-Chrome extension to translate bilibili into English
+# bilibili_translate_extension
+Browser extension to translate bilibili into English (now on manifest version 3)
 
-# Word from the Developer
-Hey all! I decided to create this extension to help those who wanted to use Bilibili but were turned away by the language barrier. This extension will only do basics, and is not complete in any way. That would take a lot more time and effort than what is really required to just watch streams and videos. 
+# Word from the Developer2
+Hello all. I decided to migrate this project to a new version of the manifest so that it can be run in modern chrome.
 
-I'll update it from time to time, but I do feel that I've mostly accomplished my goal of helping the user get around bilibili without too much trouble.
-Feedback is appreciated, and if you want to help contribute, let me know!
+If you find errors in the translation (I do not guarantee their absence), you can either change the dictionary yourself or let me know.
+
+### I am not the creator of this project!
 
 # How to Install
 1. Open chrome, open extension menu from Settings or type "chrome://extensions/" to address bar.
-2. Turn on "Developer mode"
-3. Press "Load unpacked" and select extracted folder. (You have to select whole folder)
+2. Turn on "Developer mode".
+3. Press "Load unpacked" and select extracted folder (You have to select whole folder).
 4. Press refresh icon (No need, just in case).
-5. Turn off "Developer mode".
+5. Turn off "Developer mode" (Optional).
 
-# Notes
+# How to Use
+1. Wait until page load and it will translate itself.
+2. If not translated, click on the extension to translate the page again.
+
+## Notes
 1. English will be overlayed a couple seconds after opening the page
 2. When switching between tabs, if there is no page refresh, that tab will not be translated. Hit refresh, and you should see the translations
 3. This translation only covers basic UI stuff, to help with navigation. 
 
-# Future Features (maybe)
+## Future Features (maybe2)
 1. Translations on pop-up windows
 2. Auto-refresh translation when moving between tabs
 3. Translations covering more aspects of Bilibili
 4. Increase code efficiency to make translations appear faster
+4. More languages
 
 # Authors/Contributors
 A big thank you to u/konokalahola from Reddit for providing the Chrome extension framework!
 A big thank you to u/Prune_Berry from Reddit for helping translate and polishing the extension!
+A big thank you to XilkyTofu from github for original repository!

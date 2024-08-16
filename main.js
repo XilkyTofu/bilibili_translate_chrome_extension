@@ -26,9 +26,14 @@ function replaceText(fromString, toString){
   }
 }
 
-setTimeout(function () {
-	for (let key in dictionary) {
-		replaceText(key, dictionary[key]);
-	}
-}, 3000);
+(function main(){
+  for (let key in dictionary) {
+    replaceText(key, dictionary[key]);
+  }
+})();
 
+setTimeout(function () {
+  for (let key in dictionary) {
+    replaceText(key, dictionary[key]);
+  }
+}, 3000);
